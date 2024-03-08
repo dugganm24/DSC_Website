@@ -1,0 +1,60 @@
+/* aboutUs.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+.about-us-container {
+    max-width: 90%;
+    margin: 50px auto; /* Add more margin to center the content vertically */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.about-us-title {
+    text-align: center;
+    font-size: 3rem;
+    color: #333; /* Dark text color */
+    margin-bottom: 20px;
+
+}
+
+.about-us-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Add gap between grid items */
+}
+
+.about-us-text {
+    background-color: #fff; /* White background for text */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+h1, h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.about-us-image {
+    overflow: hidden; /* Ensure images don't overflow */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.about-us-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.about-us-image img:hover {
+    transform: scale(1.05); /* Scale up image on hover */
+}
