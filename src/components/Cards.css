@@ -1,5 +1,5 @@
 .cards {
-  padding: 4rem;
+  padding: 2rem;
   background: #fff;
 }
 
@@ -13,7 +13,7 @@ h1 {
   flex-flow: column;
   align-items: center;
   max-width: 1120px;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -31,8 +31,6 @@ h1 {
   flex: 1;
   margin: 0 1rem 2rem; /* Adjust the margin as needed */
 }
-
-
 
 .cards__item__link {
   padding: 10px;
@@ -100,8 +98,9 @@ h1 {
 
 .cards__item__text {
   color: #3f5b81;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 24px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -120,4 +119,21 @@ h1 {
   .cards__item {
     margin-bottom: 2rem;
   }
+}
+
+.cards__items__horizontal {
+  display: flex;
+}
+
+.cards__items__horizontal > * {
+  width: 50%;
+}
+
+.cards__items__vertical {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.cards__items__vertical > * {
+  margin-bottom: 2rem;
 }
