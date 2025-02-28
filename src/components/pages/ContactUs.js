@@ -1,6 +1,16 @@
-import React from 'react'
-import '../../App.css'
+import React from 'react';
+import ContactForm from './ContactForm';
+import './ContactUs.css';
 
-export default function ContactUs(){
-    return <h1 className='contact-us'>CONTACT US</h1>
-}
+const ContactUs = () => {
+  return (
+    <div className="contact-us-container">
+      <h1>Contact Us</h1>
+      <div className="contact-us-form">
+        <ContactForm />
+      </div>
+    </div>
+  );
+};
+
+export default ContactUs;

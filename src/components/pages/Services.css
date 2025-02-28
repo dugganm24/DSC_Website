@@ -1,0 +1,46 @@
+.services-container {
+  padding: 20px;
+}
+
+.welcome-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.welcome-section h1 {
+  color: #3f5b81;
+  font-size: 3rem;
+}
+
+.service-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px; /* Add some space between service items */
+}
+
+.service {
+  width: calc(50% - 15px); /* Adjust width for responsiveness */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.service-details {
+  padding: 20px;
+}
+
+.service-details h3 {
+  color: #3f5b81;
+}
+
+.service-details p {
+  color: #666;
+}

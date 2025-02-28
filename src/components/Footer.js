@@ -1,11 +1,24 @@
-import React from 'react'
+import React from 'react';
+import './Footer.css';
 
-function footer() {
+function Footer() {
   return (
-    <div>
-      
-    </div>
-  )
+    <footer>
+      <div className="footer-container">
+        <div className="llc-info">
+          <p>&copy; 2024 Duggan and Sons LLC. All rights reserved.</p>
+        </div>
+        <div className="social-links">
+          <a href="https://twitter.com/your_twitter_page" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-twitter"></i>
+          </a>
+          <a href="https://instagram.com/your_instagram_page" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
 }
 
-export default footer
+export default Footer;
