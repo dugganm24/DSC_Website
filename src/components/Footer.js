@@ -2,11 +2,14 @@ import React from 'react';
 import './Footer.css';
 
 function Footer() {
+
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer>
       <div className="footer-container">
         <div className="llc-info">
-          <p>&copy; 2024 Duggan and Sons LLC. All rights reserved.</p>
+          <p>&copy; {currentYear} Duggan and Sons LLC. All rights reserved.</p>
         </div>
         <div className="social-links">
           <a href="https://twitter.com/your_twitter_page" target="_blank" rel="noopener noreferrer">
