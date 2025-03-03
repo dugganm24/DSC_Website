@@ -1,5 +1,5 @@
 .navbar {
-  background: #fff;
+  background: #e6e6e6;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -8,6 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  border-bottom: 3px solid #3f5b81;
 }
 
 .navbar-container {
@@ -89,13 +90,13 @@
     position: absolute;
     top: 80px;
     left: -100%;
-    padding-top: 20px; /* Adjusted padding top */
     opacity: 1;
     transition: all 0.5s ease;
+    justify-content: flex-start;
   }
 
   .nav-menu.active {
-    background: #fff;
+    background: #e6e6e6;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
