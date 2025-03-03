@@ -1,9 +1,16 @@
+.gallery-title {
+  background-color: #e6e6e6;
+  color: #3f5b81;
+  font-size: 3rem;
+  padding: 20px; /* Add padding for better spacing */
+}
+
 .gallery-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start; /* Align items to the top */
-  padding: 20px; /* Add padding for better spacing */
+  padding: 10px; /* Add padding for better spacing */
   min-height: calc(100vh - 100px); /* Adjust height to fill available space, considering 100px for footer */
   background-color: #e6e6e6;
 }
@@ -78,5 +85,4 @@
     font-size: 36px;
     cursor: pointer;
   }
-
 

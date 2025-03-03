@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import './Gallery.css';
 
 const Gallery = () => {
@@ -6,10 +6,25 @@ const Gallery = () => {
     { id: 1, src: '/images/img1.jpeg', alt: 'Image 1' },
     { id: 2, src: '/images/img2.jpeg', alt: 'Image 2' },
     { id: 3, src: '/images/img3.jpeg', alt: 'Image 3' },
-    // Add more images as needed
   ];
 
   const [enlargedImageIndex, setEnlargedImageIndex] = useState(null);
+
+  const closeEnlargedImage = useCallback(() => {
+    setEnlargedImageIndex(null);
+  }, []);
+
+  const goToNextImage = useCallback(() => {
+    setEnlargedImageIndex((prevIndex) =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+  }, [images.length]);
+
+  const goToPrevImage = useCallback(() => {
+    setEnlargedImageIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  }, [images.length]);
 
   useEffect(() => {
     const handleKeyDown = (event) => {
@@ -25,30 +40,13 @@ const Gallery = () => {
     };
 
     window.addEventListener('keydown', handleKeyDown);
-
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
     };
-  }, [enlargedImageIndex]);
+  }, [enlargedImageIndex, goToNextImage, goToPrevImage, closeEnlargedImage]); // Dependencies added
 
   const enlargeImage = (index) => {
     setEnlargedImageIndex(index);
-  };
-
-  const closeEnlargedImage = () => {
-    setEnlargedImageIndex(null);
-  };
-
-  const goToNextImage = () => {
-    setEnlargedImageIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
-    );
-  };
-
-  const goToPrevImage = () => {
-    setEnlargedImageIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
   };
 
   return (
