@@ -1,7 +1,1 @@
-pick up @1:15:00
-
-- Need to fix dropdown navbar menu, text to start top
-- Need to fix spacing between card items
-- Need to create footer
-    - In vid, but only want LLC and social media
-    - Maybe other ideas?
+- Background color for all pages
