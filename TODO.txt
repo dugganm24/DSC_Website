@@ -1,1 +1,2 @@
 - Background color for all pages
+- Footer auto-generate date
