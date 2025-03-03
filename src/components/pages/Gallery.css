@@ -5,6 +5,7 @@
   align-items: flex-start; /* Align items to the top */
   padding: 20px; /* Add padding for better spacing */
   min-height: calc(100vh - 100px); /* Adjust height to fill available space, considering 100px for footer */
+  background-color: #e6e6e6;
 }
   
   .gallery-image {
