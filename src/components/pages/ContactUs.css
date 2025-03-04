@@ -1,5 +1,11 @@
 /* ContactUs.css */
 
+.contact-us-wrapper {
+    background-color: #e6e6e6; /* Full-width background */
+    width: 100%;
+    padding: 50px 0; /* Keep vertical padding */
+}
+
 .contact-us-container {
     max-width: 800px;
     margin: 0 auto;

@@ -1,1 +1,2 @@
 - Background color for all pages
+- Hook up messaging API 
