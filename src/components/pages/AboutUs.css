@@ -31,7 +31,8 @@
 
 .left-text .about-us-text {
     width: 60%; /* Adjust the width as needed */
-    margin-left: 20px; /* Adjust the margin to increase space */
+    margin-right: 60px; /* Adjust the margin to increase space */
+    margin-left: 20px;
 }
 
 .left-text .about-us-image {
@@ -41,7 +42,7 @@
 .right-text .about-us-text {
     width: 60%; /* Adjust the width as needed */
     margin-right: 20px; /* Adjust the margin to increase space */
-    margin-left: 20px;
+    margin-left: 60px;
 }
 
 .right-text .about-us-image {
