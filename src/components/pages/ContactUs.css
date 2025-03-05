@@ -11,6 +11,7 @@
     margin: 0 auto;
     padding: 20px;
     background-color: #e6e6e6;
+    min-height: calc(100vh - 100px); /* Adjust height to fill available space, considering 100px for footer */
   }
   
   .contact-us-container h1 {
