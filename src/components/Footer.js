@@ -12,10 +12,10 @@ function Footer() {
           <p>&copy; {currentYear} Duggan and Sons LLC. All rights reserved.</p>
         </div>
         <div className="social-links">
-          <a href="https://twitter.com/your_twitter_page" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-twitter"></i>
+          <a href="https://x.com/Duggan_andSons" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-x-twitter"></i>
           </a>
-          <a href="https://instagram.com/your_instagram_page" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/dugganandsons/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i>
           </a>
         </div>
