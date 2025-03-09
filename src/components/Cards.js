@@ -16,7 +16,7 @@ function Cards() {
                 path='./services'
                 />
                 <CardItem 
-                src='images/img8.jpeg'
+                src='images/custom_homes_home_page.JPG'
                 text='Custom Homes '
                 label='New Construction'
                 path='./services'
@@ -24,13 +24,13 @@ function Cards() {
             </ul>
             <ul className="cards__items">
                 <CardItem 
-                src='images/img6.jpeg'
+                src='images/additions_and_renovations_home.jpeg'
                 text='Additions and Renovations '
                 label='Existing Construction'
                 path='./services'
                 />
                 <CardItem 
-                src='images/img4.jpeg'
+                src='images/kitchens_and_baths.jpeg'
                 text='Kitchens and Baths '
                 label='Existing Construction'
                 path='./services'

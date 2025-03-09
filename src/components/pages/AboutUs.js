@@ -13,7 +13,7 @@ export default function AboutUs() {
                             <p>We are a full-service construction company that can take your project ideas from design to completion. Whether you are looking to remodel a bathroom or build a custom home or anything in between, we take pride in making sure it is completed on time and on budget.</p>
                         </div>
                         <div className='about-us-image'>
-                            <img src='/images/img2.jpeg' alt='Construction Team' />
+                            <img src='/images/about_us_1.jpg' alt='Construction Team' />
                         </div>
                     </div>
                     <div className='section right-text'>
@@ -31,7 +31,7 @@ export default function AboutUs() {
                             <p>Reach out to us and make an appointment to meet with me, not a salesman. From that point, we work with the design, permitting, selections, construction management, right down to the little details that make every project special to us.</p>
                         </div>
                         <div className='about-us-image'>
-                            <img src='/images/img3.jpeg' alt='Construction Team' />
+                            <img src='/images/about_us_3.heic' alt='Construction Team' />
                         </div>
                     </div>
                 </div>

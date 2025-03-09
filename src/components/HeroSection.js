@@ -6,12 +6,12 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
+      <video src='/videos/hero-background.MOV' autoPlay loop muted />
       <h1>DUGGAN AND SONS CONSTRUCTION</h1>
       <div className='hero-btns'>
         <Button
           className='btns'
-          buttonStyle='btn--outline'
+          buttonStyle='btn--secondary' 
           buttonSize='btn--large'
         >
           GET STARTED
@@ -20,7 +20,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
+          onClick={console.log('this button works')}
         >
           WATCH SOMETHING<i className='far fa-play-circle' />
         </Button>

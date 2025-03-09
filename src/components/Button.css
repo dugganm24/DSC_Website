@@ -16,6 +16,13 @@
     border: 2px solid #e6e6e6;
     border-radius: 12px;
   }
+
+  .btn--secondary {
+    background-color: #3f5b81;
+    color: #fff;
+    border: 2px solid #3f5b81;
+    border-radius: 12px;
+  }
   
   .btn--outline {
     background-color: transparent;
@@ -35,11 +42,21 @@
     padding: 12px 26px;
     font-size: 20px;
   }
-  
-  .btn--large:hover,
-  .btn--medium:hover {
+
+  .btn--navbar {
+    padding: 8px 20px;
+    font-size: 18px;
+  }
+
+  .btn--outline:hover {
     transition: all 0.3s ease-out;
     background: #3f5b81;
     color: #fff;
     transition: 250ms;
+  }
+  
+  .btn--large:hover,
+  .btn--medium:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-out;
   }

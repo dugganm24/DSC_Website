@@ -18,7 +18,7 @@
   }
   
   .services {
-    background-image: url('/public/images/img1.jpeg');
+    /*background-image: url('/public/images/img1.jpeg');*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@
   }
   
   .about-us {
-    background-image: url('/public/images/img2.jpeg');
+    /*background-image: url('/public/images/img2.jpeg');*/
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@
   }
   
   .gallery {
-    background-image: url('/public/images/img3.jpeg');
+   /* background-image: url('/public/images/img3.jpeg'); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
