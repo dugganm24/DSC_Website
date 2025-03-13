@@ -19,7 +19,7 @@ function Services() {
         </div>
 
         <div className="service">
-          <img src="/images/custom_homes_services.heic" alt="Custom Homes" />
+          <img src="/images/custom_homes_services.jpeg" alt="Custom Homes" />
           <div className="service-details">
             <h3>Custom Homes</h3>
             <p>Design and build your dream home with our expert team. From concept to completion, we'll work closely with you to ensure every detail reflects your vision.</p>
@@ -27,7 +27,7 @@ function Services() {
         </div>
 
         <div className="service">
-          <img src="/images/additions_and_renovations_services.heic" alt="Additions and Renovations" />
+          <img src="/images/additions_and_renovations_services.jpeg" alt="Additions and Renovations" />
           <div className="service-details">
             <h3>Additions and Renovations</h3>
             <p>Expand your living space or update your current home with our additions and renovations services. Enhance functionality and increase property value with our expert craftsmanship.</p>

@@ -31,7 +31,7 @@ export default function AboutUs() {
                             <p>Reach out to us and make an appointment to meet with me, not a salesman. From that point, we work with the design, permitting, selections, construction management, right down to the little details that make every project special to us.</p>
                         </div>
                         <div className='about-us-image'>
-                            <img src='/images/about_us_3.heic' alt='Construction Team' />
+                            <img src='/images/about_us_3.jpeg' alt='Construction Team' />
                         </div>
                     </div>
                 </div>

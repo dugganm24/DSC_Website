@@ -1,22 +1,16 @@
 - Hook up messaging API 
 
 - Images to figure out
-    - home and services
+    - home 
         - we buy properties
-    - about us 
+    - about us  
         - family first
+    - services
+        - we buy properties
+        - custom home (finished project)
 
-- Convert HEIC image types
-    - services page
-        - additions and renovations
-        - custom homes  
-    - about us page
-        - 3rd image 
-    - home page (cards)
-        - additions and renovations
+
 
 - add all images to gallery  
-    - need to convert all from HEIC 
 
-- contact form
-    - add blurb on left, contact form on right 
+- contact form blurb

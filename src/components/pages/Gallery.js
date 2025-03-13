@@ -3,9 +3,12 @@ import './Gallery.css';
 
 const Gallery = () => {
   const images = [
-    { id: 1, src: '/images/img1.jpeg', alt: 'Image 1' },
-    { id: 2, src: '/images/img2.jpeg', alt: 'Image 2' },
-    { id: 3, src: '/images/img3.jpeg', alt: 'Image 3' },
+    { id: 1, src: '/images/custom_homes_home_page.jpg', alt: 'Image 1' },
+    { id: 2, src: '/images/about_us_1.jpg', alt: 'Image 2' },
+    { id: 3, src: '/images/additions_and_renovations_services.jpeg', alt: 'Image 3' },
+    { id: 4, src: '/images/additions_and_renovations_home.jpeg', alt: 'Image 4' },
+    { id: 5, src: '/images/about_us_3.jpeg', alt: 'Image 5' },
+    { id: 6, src: '/images/kitchens_and_baths.jpeg', alt: 'Image 6' },
   ];
 
   const [enlargedImageIndex, setEnlargedImageIndex] = useState(null);
