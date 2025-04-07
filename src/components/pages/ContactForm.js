@@ -16,9 +16,7 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission, e.g., send data to backend
     console.log(formData);
-    // Reset form after submission
     setFormData({
       name: '',
       phone: '',
@@ -32,51 +30,61 @@ const ContactForm = () => {
     <div className="contact-form-container">
       <form onSubmit={handleSubmit}>
         <div className="form-group">
+          <label htmlFor="name">Name</label>
           <input
+            id="name"
             type="text"
             name="name"
             value={formData.name}
             onChange={handleChange}
-            placeholder="Your Name"
+            placeholder="First and Last Name"
             required
           />
         </div>
         <div className="form-group">
+          <label htmlFor="phone">Phone</label>
           <input
+            id="phone"
             type="tel"
             name="phone"
             value={formData.phone}
             onChange={handleChange}
-            placeholder="Your Phone"
+            placeholder="XXX-XXX-XXXX"
             required
           />
         </div>
         <div className="form-group">
+          <label htmlFor="email">Email</label>
           <input
+            id="email"
             type="email"
             name="email"
             value={formData.email}
             onChange={handleChange}
-            placeholder="Your Email"
+            placeholder="example@email.com"
             required
           />
         </div>
         <div className="form-group">
+          <label htmlFor="subject">Subject</label>
           <input
+            id="subject"
             type="text"
             name="subject"
             value={formData.subject}
             onChange={handleChange}
-            placeholder="Subject"
+            placeholder="How can we help you"
             required
           />
         </div>
         <div className="form-group">
+          <label htmlFor="message">Message</label>
           <textarea
+            id="message"
             name="message"
             value={formData.message}
             onChange={handleChange}
-            placeholder="Your Message"
+            placeholder="Type your message here..."
             required
           ></textarea>
         </div>

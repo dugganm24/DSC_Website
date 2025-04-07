@@ -11,20 +11,23 @@ import ContactUs from './components/pages/ContactUs';
 
 function App() {
   return (
-    <>
-    <Router>
-      <Navbar />
-      <Routes>
-      <Route path='/' exact Component={Home}/>
-      <Route path='/about-us' Component={AboutUs} />
-      <Route path='/services' Component={Services} />
-      <Route path='/gallery' Component={Gallery} />
-      <Route path='/contact-us' Component={ContactUs} />
-      </Routes>
-      <Footer />
-    </Router>
-    </>
+    <div className="page-wrapper">
+      <Router>
+        <Navbar />
+        <main className="main-content">
+          <Routes>
+            <Route path="/" exact Component={Home} />
+            <Route path="/about-us" Component={AboutUs} />
+            <Route path="/services" Component={Services} />
+            <Route path="/gallery" Component={Gallery} />
+            <Route path="/contact-us" Component={ContactUs} />
+          </Routes>
+        </main>
+        <Footer />
+      </Router>
+    </div>
   );
 }
+
 
 export default App;

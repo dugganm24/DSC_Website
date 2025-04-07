@@ -11,14 +11,15 @@
   .gallery,
   .contact-us {
     display: flex;
-    height: 90vh;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 60px 20px; /* Use padding instead of fixed height */
     font-size: 3rem;
   }
   
+  
   .services {
-    /*background-image: url('/public/images/img1.jpeg');*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,7 +28,6 @@
   }
   
   .about-us {
-    /*background-image: url('/public/images/img2.jpeg');*/
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -36,7 +36,6 @@
   }
   
   .gallery {
-   /* background-image: url('/public/images/img3.jpeg'); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -51,3 +50,20 @@
     color: #010101;
     font-size: 100px;
   }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1;
+  }
+  

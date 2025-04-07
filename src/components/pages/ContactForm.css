@@ -3,12 +3,19 @@
 .contact-form-container {
     max-width: 500px;
     margin: 0 auto;
-    background-color: #e6e6e6;
+    background-color: transparent;
   }
   
   .contact-form-container h2 {
     text-align: center;
   }
+
+  .contact-form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #3f5b81;
+  }  
   
   .form-group {
     margin-bottom: 20px;
@@ -42,9 +49,7 @@
   button[type="submit"]:hover {
     background-color: #0056b3;
   }
-  
-  /* ContactUs.css */
-  
+    
   .contact-us-container {
     max-width: 800px;
     margin: 0 auto;
