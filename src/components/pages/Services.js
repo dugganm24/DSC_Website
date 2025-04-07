@@ -19,7 +19,7 @@ function Services() {
         </div>
 
         <div className="service">
-          <img src="/images/custom_homes_services.jpeg" alt="Custom Homes" />
+          <img src="/images/custom_homes_services_page.jpg" alt="Custom Homes" />
           <div className="service-details">
             <h3>Custom Homes</h3>
             <p>Design and build your dream home with our expert team. From concept to completion, we'll work closely with you to ensure every detail reflects your vision.</p>

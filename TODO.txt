@@ -7,9 +7,6 @@
         - family first
     - services
         - we buy properties
-        - custom home (finished project)
-
-
 
 - add all images to gallery  
 

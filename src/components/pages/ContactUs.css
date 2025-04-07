@@ -3,7 +3,6 @@
 .contact-us-wrapper {
     background-color: #e6e6e6; /* Full-width background */
     width: 100%;
-    padding: 50px 0; /* Keep vertical padding */
 }
 
 .contact-us-container {
@@ -16,11 +15,12 @@
   
   .contact-us-container h1 {
     text-align: center;
-    margin-bottom: 30px;
+    color: #3f5b81;
+    font-size: 3rem;
+    padding: 20px; /* Add padding for better spacing */
   }
   
   .contact-us-form {
-    padding: 20px;
     border-radius: 10px;
   }
   
